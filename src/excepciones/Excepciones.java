@@ -39,13 +39,20 @@ public class Excepciones {
 //        } catch (ArithmeticException c) {
 //            System.out.println("No se puede dividir por 0");
 //        }
-        try{
-            int a=0;
-            String b = "akak";
-            System.out.println(a+b);
+        System.out.println("\n_Excepeción conversión de formato_");
+        try {
+            String s = " a";
+            int a;
+            a = Integer.parseInt(s);
+            System.out.println(a);
+        } catch (NumberFormatException d) {
+            System.out.println("La cadena no se puede convertir");
         }
-        catch(RuntimeException d){
-            System.out.println("asdnkl");
+        try{
+            
+        }
+        catch(){
+            
         }
     }
 
