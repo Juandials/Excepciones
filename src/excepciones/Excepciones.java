@@ -5,6 +5,9 @@
  */
 package excepciones;
 
+import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.*;
 
 /**
@@ -35,25 +38,32 @@ public class Excepciones {
 //        System.out.println("\n_Excepeción Aritmetica_");
 //        try {
 //            int b = 1;
-//            b=1/0;
+//            b = 1 / 0;
 //        } catch (ArithmeticException c) {
 //            System.out.println("No se puede dividir por 0");
 //        }
-        System.out.println("\n_Excepeción conversión de formato_");
-        try {
-            String s = " a";
-            int a;
-            a = Integer.parseInt(s);
-            System.out.println(a);
-        } catch (NumberFormatException d) {
-            System.out.println("La cadena no se puede convertir");
-        }
-        try{
-            
-        }
-        catch(){
-            
-        }
+//        System.out.println("\n_Excepeción conversión de formato_");
+//        try {
+//            String s = " a";
+//            int a;
+//            a = Integer.parseInt(s);
+//            System.out.println(a);
+//        } catch (NumberFormatException d) {
+//            System.out.println("La cadena no se puede convertir");
+//        }
+//        try {
+//            BufferedReader br = null;
+//            br = new BufferedReader(new FileReader("text.json"));
+//        } catch (FileNotFoundException e) {
+//            System.out.println("No existe archivo de texto");
+//        }
+//        try{
+//            Integer a = null;
+//            System.out.println(a/2);
+//        }
+//        catch(NullPointerException f){
+//            System.out.println("La variable no tiene un valor definido");
+//        }
     }
 
 }
