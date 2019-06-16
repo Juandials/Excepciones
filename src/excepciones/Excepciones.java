@@ -51,17 +51,38 @@ public class Excepciones {
 //        } catch (NumberFormatException d) {
 //            System.out.println("La cadena no se puede convertir");
 //        }
+//        System.out.printLn("\n_Excepción desborde de memoria_");        
+//        Excepciones a = new Excepciones();
+//        try {
+//            a.go();
+//        } catch (StackOverflowError e) {
+//            System.out.println("Uy, nos hemos quedado sin RAM");
+//        }
+//        System.out.println("\n_Exepción puntero null_");
+//        try {
+//            String s = null;
+//            System.out.println(s.length());
+//        } catch (NullPointerException f) {
+//            System.out.println("Puntero en null :v");
+//        }
+//        System.out.println("\n_Exepción tamaño de arreglo negativo_");
+//        try{
+//            int [] a = new int[-3];
+//        }
+//        catch(NegativeArraySizeException g){
+//            System.out.println("El tamaño del arreglo es negativo :v");
+//        }
 //        try {
 //            BufferedReader br = null;
 //            br = new BufferedReader(new FileReader("text.json"));
-//        } catch (FileNotFoundException e) {
+//        } catch (FileNotFoundException h) {
 //            System.out.println("No existe archivo de texto");
 //        }
 //        try{
 //            Integer a = null;
 //            System.out.println(a/2);
 //        }
-//        catch(NullPointerException f){
+//        catch(NullPointerException i){
 //            System.out.println("La variable no tiene un valor definido");
 //        }
     }
